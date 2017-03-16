@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootcont</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="container">
+    <iframe width="400" height="450" src="https://www.youtube.com/embed/BEZaBdfcjZY" frameborder="0" allowfullscreen></iframe><iframe width="400" height="450" src="https://www.youtube.com/embed/BEZaBdfcjZY" frameborder="0" allowfullscreen></iframe>
+    <nav class="navbar navbar-success">
+  
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">GEMS</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">SHOOTS FOR THE STARS</a></li>
+      <li><a href="/static_pages/home">REACH</a></li>
+      <li><a href="/static_pages/help">FOR THE</a></li>
+      <li><a href="/static_pages/about">STARS</a></li>
+    </ul>
+  
+    </nav>
+    <div>
+    <%= yield %>
+    
+    </div>
+  </body>
+</html>
